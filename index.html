@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Meu Projeto de API</title>
+</head>
+<body>
+    <div class="menu">
+        <h1>Meu projeto de API de Código Postal (CEP)</h1>
+    </div>
+
+    <div class="main">
+        <h2>Digite o seu CEP e encontre o seu endereço.</h2>
+        <div class="content">
+            <input id="campo-cep" type="text">
+            <button id="botao-enviar" type="submit">Enviar CEP</button>
+        </div>
+    </div>
+
+        <div class="text-content">
+            <div id="conteudo-cep" class="cep-content hide">
+                <h3>O seu bairro é:</h3>
+                <p id="bairro"></p>
+                <h3>O Seu logradouro é:</h3>
+                <p id="logradouro"></p>
+                <h3>A sua cidade é:</h3>
+                <p id="cidade"></p>
+                <h3>A informação da sua cidade é:</h3>
+                <p id="cidade_info"></p>
+                <h3>O seu CEP é:</h3>
+                <p id="cep"></p>
+                <h3> O seu estado é</h3>
+                <p id="estado"></p>
+                <h3>A informação do seu estado é:</h3>
+                <p id="estado_info"></p>
+            </div>
+    
+            <div class="image">
+                <img src="/svg/undraw_delivery_address_re_cjca.svg">
+            </div>
+    
+        </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

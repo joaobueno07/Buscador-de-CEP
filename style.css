@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat+Alternates&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:white;
+    
+}
+
+.menu {
+    width: 100%;
+    background-color:#a6f6af;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu h1 {
+    color: #595b5a;
+    font-family:'Comfortaa';
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    height: 150px;
+}
+
+.main h2 {
+    color: white;
+    margin-top: 20px;
+    font-family: Helvetica;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .content input {
+    background-color:#c8c9b5;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    margin-top: 20px;
+    border-radius: 5px;
+    border: none;
+    padding-left: 10px;
+    width: 250px;
+    height: 40px;
+
+}
+
+.main .content input:focus {
+    outline: 0;
+}
+
+.main .content button {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: 'Comfortaa';
+    margin-top: 10px;
+    width: 160px;
+    height: 40px;
+}
+
+.main .content button:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #a9da88;
+}
+
+.cep-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #5ccd8b;
+    font-family: 'Montserrat Alternates';
+    width: 30%;
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-left: 30px;
+    height: 500px;
+
+}
+
+.cep-content h3 {
+    color: green;
+}
+
+.cep-content p {
+    color: black;
+}
+
+.text-content {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.hide {
+    display: none;
+}
